@@ -1983,10 +1983,11 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		-moz-flex-wrap: wrap;
+		flex-direction: column;
+		/*-moz-flex-wrap: wrap;
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
-		flex-wrap: wrap;
+		flex-wrap: wrap;*/
 		border-radius: 0.25em;
 		border: solid 1px rgba(255, 255, 255, 0.15);
 		background: rgba(255, 255, 255, 0.05);
@@ -1995,8 +1996,8 @@ input, select, textarea {
 
 		.features section {
 			padding: 3.5em 3em 1em 7em ;
-			width: 50%;
-			border-top: solid 1px rgba(255, 255, 255, 0.15);
+			width: 100%;
+			border: solid 1px rgba(255, 255, 255, 0.15);
 			position: relative;
 		}
 
