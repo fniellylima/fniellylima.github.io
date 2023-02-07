@@ -2999,7 +2999,6 @@ input, select, textarea {
 		flex-direction: row;
 		min-height: 22.5em;
 	}
-
 		body.is-ie .spotlights > section {
 			min-height: 0;
 		}
@@ -3217,6 +3216,7 @@ input, select, textarea {
 		/*border: 1px solid #111;*/
 	}
 
+
 	.div_intro>.image_intro{
 		padding-left: 1em;
 		width: 38%;
@@ -3228,6 +3228,7 @@ input, select, textarea {
 		height: 90%;
 		border-radius: 100%;
 	}
+
 
 		.wrapper > .inner {
 			padding: 5em 5em 3em 5em ;
